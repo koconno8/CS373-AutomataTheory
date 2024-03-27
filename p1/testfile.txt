@@ -1,0 +1,21 @@
+state 1 start
+state 3 accept
+state 5 accept
+state 7 start accept 
+
+transition 1 a 2
+transition 1 b 3
+transition 2 a 4 
+transition 2 b 5
+transition 3 a 6
+transition 3 b 7
+transition 4 a 1
+transition 4 b 3
+transition 5 a 7
+transition 5 b 2
+transition 6 a 5
+transition 6 b 4
+transition 7 a 3
+transition 7 b 6
+
+
